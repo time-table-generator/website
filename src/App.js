@@ -3,9 +3,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <p>
-        Title: Time Table Generator
-      </p>
+      <div className='text-center bg-black rounded-lg shadow-lg shadow-cyan-300 text-white'>
+        Time Table Generator
+      </div>
     </div>
   );
 }

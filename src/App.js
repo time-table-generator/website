@@ -1,15 +1,16 @@
-import './App.css';
-import Hero from './components/heroSection';
-import Footer from './components/footerSection'
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/homePage";
+// import Layout from "./pages/layout";
 
 function App() {
   return (
     <div>
-      {/* Hero Section */}
-      <Hero/>
-
-      {/* Footer Section */}
-      <Footer/>
+      <BrowserRouter basename="/website">
+        <Routes>
+          <Route path='/' element={<Home/>} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

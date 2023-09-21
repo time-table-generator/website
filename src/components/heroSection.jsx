@@ -23,7 +23,7 @@ const Hero = () => {
   const Brand = () => (
     <div className="flex items-center justify-between py-5 md:block">
       <a href="/">
-        <img src={logo} width={120} height={50} alt="logo" />
+        <img src={logo} width={120} height={50} alt="logo" className="rounded-3xl"/>
       </a>
       <div className="md:hidden">
         <button

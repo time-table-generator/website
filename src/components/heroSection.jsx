@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 
-export default () => {
+const Hero =() => {
 
     const [state, setState] = useState(false)
 
@@ -132,3 +132,5 @@ export default () => {
         </div>
     )
 }
+
+export default Hero;

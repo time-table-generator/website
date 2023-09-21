@@ -1,11 +1,11 @@
 import './App.css';
+import Hero from './components/heroSection';
 
 function App() {
   return (
-    <div className="App">
-      <div className='text-center bg-black rounded-lg shadow-lg shadow-cyan-300 text-white'>
-        Time Table Generator
-      </div>
+    <div>
+      {/* Hero Section */}
+      <Hero/>
     </div>
   );
 }

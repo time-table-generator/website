@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
 import logo from '../images/logo.png';
+import cloud_image from '../images/cloud_image.png'
 
 const Hero =() => {
 
@@ -125,7 +126,7 @@ const Hero =() => {
                         </div>
                         <div className='flex-1 hidden md:block'>
                             {/* Replace with your image */}
-                            <img alt="cloud" src="https://res.cloudinary.com/floatui/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency/v1669333920/undraw_progressive_app_m-9-ms_oftfv5.jpg" className="max-w-xl" />
+                            <img alt="cloud" src={cloud_image} className="max-w-xl" />
                         </div>
                     </div>
                 </section>

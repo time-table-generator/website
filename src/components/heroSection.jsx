@@ -29,7 +29,7 @@ const Hero =() => {
                     src={logo}
                     width={120}
                     height={50}
-                    alt="Float UI logo"
+                    alt="logo"
                 />
             </a>
             <div className="md:hidden">

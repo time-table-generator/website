@@ -7,10 +7,10 @@ const Hero = () => {
 
   // Replace / paths with your paths
   const navigation = [
-    { title: "Features", path: "/" },
-    { title: "Integrations", path: "/" },
-    { title: "Customers", path: "/" },
-    { title: "Pricing", path: "/" },
+    { title: "Features", path: "/features" },
+    { title: "Integrations", path: "/integrations" },
+    { title: "Customers", path: "/customers" },
+    { title: "Pricing", path: "/pricing" },
   ];
 
   useEffect(() => {
@@ -198,7 +198,7 @@ const Hero = () => {
               </div>
               <div className="flex items-center gap-x-3 sm:text-sm">
                 <a
-                  href="/"
+                  href="/main"
                   className="flex items-center justify-center gap-x-1 py-2 px-4 text-white font-medium bg-gray-800 duration-150 hover:bg-gray-700 active:bg-gray-900 rounded-full md:inline-flex"
                 >
                   Get started
